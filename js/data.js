@@ -1,0 +1,22 @@
+var codropsEvents = {
+    '09-10-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a> <p>Lorem ipsum sit amen du taren contraversia del rocka amena dura sit amena con padera.</p>',
+    '09-15-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '09-19-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '09-23-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '09-26-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '09-29-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '10-13-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '10-26-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '10-28-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '11-15-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '11-18-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '11-20-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '11-23-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-10-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-15-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-19-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-21-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-20-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-23-2013': '<a href="http://teslathemes.com/blog/interview-meet-the-teslathemes-team/">Interview: Meet the TeslaThemes Team</a>',
+    '12-31-2013': '<span>New Year\'s Eve</span>'
+};

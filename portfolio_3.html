@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Zoomy</title>
+        <meta name="description" content="Here goes description" />
+        <meta name="author" content="author name" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Stylesheets -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="js/farbtastic/farbtastic.css" type="text/css" />
+    </head>
+    <body>
+        <!-- ================================= START HEADER === -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/elements/logo.png" alt="logo" /></a>                    
+                        </div>
+                    </div>
+                    <div class="span9">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">home</a>
+                                    <ul class="children">
+                                        <li><a href="index_2.html">Home 2</a></li>
+                                        <li><a href="index_3.html">Home fullwidth</a></li>
+                                        <li><a href="index_4.html">Home grid</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="gallery.html">Gallery</a>
+                                    <ul class="children">
+                                        <li><a href="gallery_2.html">Gallery 2 col</a></li>
+                                        <li><a href="gallery_3.html">Gallery 3 col</a></li>
+                                        <li><a href="gallery_4.html">Gallery 4 col</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">blog</a>
+                                    <ul class="children">
+                                        <li><a href="blog_masonry.html">Blog masonry</a></li>
+                                        <li><a href="blog.html">Blog with sidebar</a></li>
+                                        <li><a href="blog_full_width.html">Blog fullwidth</a></li>
+                                        <li><a href="blog_post.html">Blog post</a></li>
+                                    </ul>
+                                </li>
+                                <li class="current_page_item"><a href="#">pages</a>
+                                    <ul class="children">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a>
+                                            <ul class="children">
+                                                <li><a href="portfolio_2.html">Portfolio 2 col</a></li>
+                                                <li><a href="portfolio_3.html">Portfolio 3 col</a></li>
+                                                <li><a href="portfolio_4.html">Portfolio 4 col</a></li>
+                                                <li><a href="single_project.html">Single Project</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="calendar.html">Calendar</a></li>
+                                        <li><a href="error_404.html">Error 404</a></li>
+                                        <li><a href="features.html">Features</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contacts.html">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================================= END HEADER === -->
+
+
+        <!-- ================================= START CONTENT === -->
+        <div class="content">
+            <div class="container">
+                 <!-- ==================== FILTER === -->
+                <ul class="filter-all tesla_filters" data-tesla-plugin="filters">
+                    <li><a data-category="" class="active" href="#">all</a></li>
+                    <li><a data-category="nature" href="#">nature</a></li>
+                    <li><a data-category="fashion" href="#">fashion</a></li>
+                    <li><a data-category="celebrity" href="#">celebrity</a></li>
+                    <li><a data-category="art" href="#">art</a></li>
+                </ul>
+                <!-- ==================== FILTER === -->
+                
+                <!-- ==================== GALLERY === -->
+                <div class="gallery portfolio">
+                    <div class="row" data-tesla-plugin="masonry">
+                        <div class="span4 nature">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_12.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 fashion">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_11.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 celebrity">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_10.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 art">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_9.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 nature fashion">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_8.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 fashion celebrity art">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_7.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 nature">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_6.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 fashion">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_5.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 celebrity">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_4.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 art">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_3.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 nature fashion">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_2.png" alt="gallery" />
+                            </div>
+                        </div>
+                        <div class="span4 fashion celebrity art">
+                            <div class="item">
+                                <div class="item_hover">
+                                    <div class="portfolio_item_details">
+                                        <h3><a href="#">Other World</a></h3>
+                                        <ul>
+                                            <li><h5>Author : Joe Doe</h5></li>
+                                            <li>PHOTOS <span>(5)</span></li>
+                                            <li>CLIENT - <span>Roger Doe</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img src="images/gallery/item_1.png" alt="gallery" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="page-numbers">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a class="active" href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <!-- ==================== GALLERY === -->
+            </div>
+        </div>
+        <!-- ================================= END CONTENT === -->
+
+
+        <!-- ================================= START FOOTER === -->
+        <div class="container">
+            <div class="footer">            
+                <div class="row">
+                    <div class="span3">
+                        <div class="widget flickr-widget">
+                            <div class="widget-title">Flickr photos</div>
+                            <ul class="flickr_widget" data-userid="97073871@N04" data-items="12">
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="span3 offset1">
+                        <div class="widget">
+                            <div class="widget-title">Contact info</div>
+                            <div class="contact_info_mail">
+                                <p>hi@teslathemes.com</p>
+                                <p>zoomy2013@gmail.com</p>
+                            </div>
+
+                            <div class="contact_info_phone">
+                                <p>(077) 00 123 123 999 677</p>
+                                <p>(077) 00 123 123 999 677</p>
+                                <p><span>08:00 PM - 16:00 PM</span></p>
+                            </div>
+
+                            <div class="contact_info_location">
+                                <p>165 White Yard Avenue</p>
+                                <p>55 Celebrity Bulevard</p>
+                                <p>17/5 A.2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4 offset1">
+                        <div class="widget twitter-widget">
+                            <div class="widget-title">Latest Tweets</div>
+                            <ul class="twitter_widget" data-user="teslathemes" data-posts="3">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_under">
+                <div class="container">
+                    <div class="row">
+                        <div class="span6">
+                            <p>Copyright 2013 Theme by TeslaThemes
+                            </p>
+                        </div>
+                        <div class="span6">
+                            <ul class="socials">
+                                <li><a href="#"><img src="images/socials/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#"><img src="images/socials/twitter.png" alt="twitter" /></a></li>
+                                <li><a href="#"><img src="images/socials/linkedin.png" alt="linkedin" /></a></li>
+                                <li><a href="#"><img src="images/socials/rss.png" alt="rss" /></a></li>
+                                <li><a href="#"><img src="images/socials/pinterest.png" alt="pinterest" /></a></li>
+                                <li><a href="#"><img src="images/socials/youtube.png" alt="youtube" /></a></li>
+                                <li><a href="#"><img src="images/socials/flickr.png" alt="flickr" /></a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================================= END FOOTER === -->        
+
+
+        <!-- ===================================== START SCRIPTS -->
+        <script src="js/modernizr.custom.63321.js"></script>
+        <script src="js/jquery-1.10.0.min.js"></script>
+        <script src="js/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="js/plugins.js" type="text/javascript" ></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/placeholder.js" type="text/javascript"></script>
+        <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="js/masonry.pkgd.js" type="text/javascript"></script>
+        <script src="js/jquery.swipebox.min.js" type="text/javascript"></script>
+        <script src="js/countdown.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/farbtastic/farbtastic.js"></script>
+        <script src="js/options.js" type="text/javascript"></script>
+        <script src="js/jquery.calendario.js"></script>
+        <script src="js/data.js" type="text/javascript"></script>
+        <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </body>
+</html>
